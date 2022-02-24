@@ -1,12 +1,11 @@
 import "./App.css";
-import Card from "./Card";
+import CardList from "./components/CardList";
 
 function App() {
   return (
     <>
-      <h1> Hola React 😎 </h1>
-      <Card name="Pikachu" type="electricidad" description="soy el mas cute" color="orange" />
-      <Card name="Charmander" type="fuego" description="soy el mas caliente" color="red" />
+      <h1 className="title"> Hola React 😎 </h1>
+      <CardList />
     </>
   );
 }

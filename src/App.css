@@ -2,9 +2,36 @@
   font-family: sans-serif;
 }
 
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title{
+  text-align: center;
+}
+
 .pokemon-card{
   border: 3px solid black;
   border-radius: 10px;
+  width: 90%;
   padding: 1em;
-  margin: 1em auto;
+  margin: 1em 0;
+}
+.pokemon-list{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.pokemon-button{
+width: 90%;
+margin: 0 auto;
+padding: 1em;
+border-radius: 20px;
+background-color: tomato;
+color: white;
+font-weight: bold;
+font-size: large;
 }
